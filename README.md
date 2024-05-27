@@ -30,7 +30,12 @@ This project aims to address the challenge of distinguishing between human-gener
 
 ## Methodology
 ### Data Collection
-We collected a diverse dataset comprising both human-generated and AI-generated images to train and evaluate our models.
+Data set This study develops and evaluates different methods using deep learning and learning techniques for the experience between human-generated images and artificial intelligence-generated images, especially by Modeling operations on the set include both human-generated and artificial intelligence-generated images that can be collected from the Hugging Face visibly and used to further understand.
+ - A total of 75,000 artificial intelligence-generated images from the [“Dalle3 1 million+ High Quality Captions”](https://huggingface.co/datasets/ProGamerGov/synthetic-dataset-1m-dalle3-high-quality-captions) dataset Some of the images, in particular, were generated from various websites. Focusing on in-depth content, the majority of DALL-E 3 includes a wide selection of imagery powered by other advanced artificial intelligence systems such as Stable Diffusion and Midjourney.
+ - A total of 75,000 human-generated images from the dataset.  [“Pixiv-yandere”](https://huggingface.co/datasets/haor/pixiv-yandere) to provide human-generated images on Pixiv.com is also based on DALL-E 3. Images are eaten by other advanced artificial intelligence systems such as Stable Diffusion and Midjourney.
+ - Dataset For ML
+    - [Train](https://drive.google.com/file/d/1-Xu8c8i3ZNbvX3kAthpGJ_0QOnR91joN/view?usp=drive_link)
+    - [Test](https://drive.google.com/file/d/1joPc_WUAGdMnRf98d2vri_Joq4XrL16_/view?usp=drive_link)
 
 ### Feature Extraction
 Feature extraction was performed using the Gray Level Co-occurrence Matrix (GLCM), which captures texture information from images.
